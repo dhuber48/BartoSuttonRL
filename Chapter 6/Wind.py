@@ -8,7 +8,7 @@ cols_one = [3, 4, 5, 8]
 wind_grid[:, 6:8] = -2
 wind_grid[:, cols_one] = -1
 
-goal = [3,7]
+goal = [2, 9]
 
 moves = {"N": (-1, 0), "E": (0, 1), "S": (1, 0), "W": (0, -1), "NE": (-1, 1), "SE": (1, 1), "SW": (1, -1), "NW": (-1, -1)} #in python we count from the upper left corner of the array, so to move north you decrease the column index
 move_keys = list(moves.keys())
